@@ -1,0 +1,85 @@
+.navbar{
+background-color: rgb(124, 8, 8);
+
+}
+body{
+    background-image: url('2015-dodge-challenger-srt-hellcat_100473531.jpg');
+    background-repeat: no-repeat;background-size:cover;
+    backdrop-filter: blur(.9px);
+}
+.navbar{
+    background-color: rgb(124, 8, 8);
+    display:flex
+}
+.navbar ul{
+    width: 100%;
+    display:flex;
+    justify-content:space-evenly;
+    
+} 
+h1{
+    color: aliceblue;
+}
+.HOME{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar li{
+    cursor: pointer;
+}
+.class li:hover{
+    transform: translateY(+5px);
+    transition: .5s ease;
+}
+p{
+    width: 60vw;
+}
+.aboutme{
+    height: 275;
+    
+
+
+}
+details{
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.432);
+    cursor: pointer;
+    margin: 10px ;
+}
+form {
+border: solid 2px rgb(124, 8, 8);   
+width: 500px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+
+}
+.clickhere{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes WhiteToBlack{
+    0%{
+        color: white;
+        border: none;
+        border: solid rgba(0, 0, 0, 0) 2px;
+    }
+    100%{
+        color: black;
+        border: solid black 2px;
+    }
+}
+.watch{
+    animation: WhiteToBlack 4s;
+    color: black;
+}
+.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
